@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.5.1"
+  version: "0.5.2"
 
 package:
   name: qtchecker
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/lavue-org/qtchecker/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 4faa87930523b4c447b5ce44c7c6aad9d8a97dece9bad606cc69962df1f46b41
+  sha256: bb05d837a6a2e68e6b360b5c1d24d4e8e292c58d677fdd85ab4921116c490724
 
 build:
   noarch: python
